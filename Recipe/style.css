@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Ranchers&display=swap');
+H1 {color: red;}
+H1 {font-family: impact;
+border: solid 8px pink; }
+Body {font-family: 'Hind Siliguri', sans-serif;
+line-height: 1.5; Border: Solid 10px pink; margin-left:4em; margin-right: 4em;
+padding: 1em; }
+img {border: solid 3px brown; margin-left:2em; }
