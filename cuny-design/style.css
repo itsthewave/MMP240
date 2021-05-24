@@ -1,0 +1,142 @@
+
+
+header {display: flex;
+justify-content: space-between;
+margin-right: 1em;
+  margin-left: 2em;}
+
+Footer{margin-left: 2em}
+  .hero-banner{background-image: url("images/qc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px;
+  margin-left: 2em;
+  margin-right: 2em
+  }
+
+.menu .dropdown-search{display:none;
+width: 100%;
+position: absolute;
+top:57px;
+z-index: 100;
+
+  }
+  .dropdown-link:hover ul{display:block;
+
+  }
+  .menu li{
+    border-bottom:solid 1px #000;
+    list-style-type: none;
+    background-color:#ccc;
+    padding:0.5em;
+    padding-top: 1em;
+    margin: 2em;
+  position: relative;
+
+
+  }
+  .dropdown-link img{
+    float:right;
+    width: 20px;
+  }
+  .dropdown-link a{
+    color:#000;
+    text-decoration:none;
+    padding: 1em;
+  }
+
+  li .dropdown-search li{
+    background-color: #999;
+    Margin:0;
+    width:100%;
+  }
+  a:hover{
+    text-decoration: underline;
+
+  }
+  .layout{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  h1 {font-weight: bold;}
+  h2{font-weight: bold;}
+
+.move{
+  margin-left: 2em;
+}
+
+
+p {
+padding-top: 2em;
+padding-bottom: 1em;
+}
+
+.top-nav li, .top-nav form {margin: 0 1em;
+  padding: .5em;
+margin-right: 1em
+}
+
+.search-programs li {min-height: 43px;
+background-color: grey;
+border-radius: 5px;
+Margin: 10px 0;
+padding: 5px;
+padding-top:10px;
+margin: 2em;
+}
+
+
+
+
+.layout-page{
+  display: grid;
+  grid-template-columns: minmax(300px,1fr) minmax(300px,1fr) minmax(300px,1fr) minmax(300px,1fr);
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  padding: 2em;
+}
+.hero-banner{
+  border: Solid 5px gray;
+}
+
+.card{
+  border:solid 1px lightgray;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in,
+              box-shadow 0.5s ease-in;
+}
+
+.card-hover{
+  transform:translate(0,5px);
+  box-shadow: 0 -5px 5px #999
+}
+
+.card-body{
+  padding: 1em;
+}
+.card img{width:100%;}
+
+
+
+
+
+@media(min-width: 768px){
+  .menu ul {display: flex;}
+  .toggle-nav {display:none}
+.menu{display: flex;}
+.search-programs ul {display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.search-programs li {width: 31%;
+  display: flex;
+}
+
+.layout{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 1em;
+
+}
+}
